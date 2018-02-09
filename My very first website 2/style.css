@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 15x;
+	font-family: Arial, sans-serif, helvatica;
+	line-height: 1.5;
+	/*	Or we can do it in another way, by putting all the propertiy in one line*/
+}
+
+
+
+/*Global*/
+
+/*Everything inside this is a global tag or we can say it's global thing we can applay it whenever you want. */
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*Now we are going to style the header of the page by applying some of CSS propreties*/
+
+/*Here we are going to style our header by seting the margin of it and the make our text color white and then make min-height at 70px. */
+
+header {
+	background-color: #29033E;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	color: coral;
+	min-height: 70px;
+
+	/*	Now we are going to make the border of the page */
+	border-bottom: 4px solid coral;
+
+}
+
+/*Now let's style the the navigation bar, or rather the anckors of the the navigation bar*/
+
+header a {
+	padding: 10px;
+	text-transform: uppercase;
+	color: coral;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+header a:hover {
+	padding-top: 15px;
+	border: 1px solid coral;
+	border-radius: 5px;
+	background-color: black;
+}
+
+/*Here is the ul that containes the anchors*/
+
+header li {
+	float: left;
+	list-style: none;
+	display: inline;
+	padding: 0px 15px;
+}
+
+header #slogan h1 {
+	text-transform: uppercase;
+	float: left;
+}
+
+nav {
+	margin-top: 20px;
+	float: right;
+}
+
+
+/* the showcase */
+
+#showcase {
+	min-height: 300px;
+	background: url(./img/island-2722471_1920.jpg)-40px -250px;
+	border-bottom: 5px solid coral;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#showcase h1 {
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+#showcase h4 {
+	position: relative;
+	left: 30px;
+	font-size: 20px;
+}
+
+/*Stylinng the boxes */
+
+#boxes {
+	margin-top: 30px;
+}
+
+.box {
+	margin-left: 20px;
+	width: 20%;
+	float: left;
+}
+
+
+
+
+/*Styling about page */

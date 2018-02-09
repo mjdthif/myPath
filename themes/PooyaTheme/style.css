@@ -1,0 +1,326 @@
+/*
+Theme Name: Pooya Theme
+Author: Pooya
+Author URL: www.ulvis.se
+Version: 1.0
+*/
+
+body {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: green;
+    margin: 30px;
+    height: 100%;
+    background: #f0f0f0 url('http://www.datorassistent.se/wp-content/uploads/2016/02/bg_top-gradient.png') repeat-x scroll 0 0;
+}
+
+textarea { 
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+h1 {
+	font-family: Georgia, serif;
+}
+
+#logo {
+    max-width: 360px;
+}
+
+a:link,
+a:visited {
+    color: #006ec3;;
+}
+
+p {
+    outline-width: 1.65em;
+
+}
+
+/* General Layout */
+div.container {
+    max-width: 920px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article.post {
+    border-bottom: 2px dotted #bbbbbb;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    padding: 50px 0px;
+}
+
+#first-section{
+    border-bottom: 2px dotted #bbbbbb;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    padding: 50px 150px;
+    text-align: center;
+}
+
+article.post:last-of-type {
+    border-bottom: none;
+}
+
+/* Push */
+.push {
+    height: 4em;
+}
+
+/* Header */
+.site-header {
+    /*border-bottom: 2px solid #999;*/
+    background-image: url('http://localhost/ULVIS/wp-content/uploads/2016/02/bg2.jpg');
+    text-align: center;
+    box-shadow: -5px 5px 11px #888888;
+	max-width: 1024px;
+}
+
+.site-header h5 {
+    margin-top: 40px;
+}
+
+.main-title {
+    margin: -27px;
+}
+
+.main-title a {
+    text-decoration: none;
+    font-size: 500%;
+    display: inline;
+    font-family: arial black;
+    font-weight: 100;
+	color: white;
+    text-shadow: 0 0 8px #222;
+}
+
+.tagline {
+    font-family: Cambria;
+    color: #222;
+    margin: -6px;
+    font-size: 40px;
+    text-shadow: 0 0 7px #FFF;
+}
+
+.menu-mainmenu-container {
+	font-size: 0px;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 30px;
+    border-top: 2px solid #999;
+    display: block;
+    /*background-color: #085a78;*/
+    overflow: auto;
+    /*height: 4em;*/
+}
+
+div.address {
+    text-align: center;
+}
+
+div.address p {
+    line-height: 2px;
+    color: lightgray;
+}
+
+
+/* Navigation Menus */
+.site-nav {
+	text-align: center;
+    margin-top: 45px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+	display: inline-block;
+}
+
+.site-nav ul:before, .site-nav ul:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.site-nav ul {*zoom: 1;}
+
+.site-nav ul li {
+    list-style: none;
+    float: left;
+}
+
+/* Site Header Menu */
+.site-header {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 20px;
+    padding: 15px 0 0 0;
+    border-radius: 0px 0px 15px 15px;
+	border: 1px solid black;
+}
+
+.site-header nav ul li {
+    margin-right: -1px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: block;
+    padding:10px 38px;
+    border: 1px solid black;
+    border-bottom: none;
+    text-decoration: none;
+    background-color: lightgray;
+    /*border-radius: 10px;*/
+    /*margin: 0px 5px 8px;*/
+    font-size: 16px;
+    font-family: arial
+}
+
+.site-header nav ul li:first-of-type a{
+    border-radius: 10px 0px 0px;
+}
+.site-header nav ul li:last-of-type a{
+    border-radius: 0px 10px 0px 0px;
+}
+
+.site-header nav ul li a:hover {
+    background-color: #ececec;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited {
+    background-color: #006ec3;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* Page post*/
+article.page h2{
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #FFF;
+}
+
+article.page h3{
+    font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #FFF;
+}
+
+/* Info Box Styles */
+div.info-box {
+    width: 30%;
+    float: right;
+    margin: 0 0 30px 30px;
+    padding: 20px;
+    background-color: #EEE;
+}
+
+div.info-box h4 {
+    margin-bottom: 6px;
+}
+
+div.info-box p {
+    font-size: 85%;
+}
+
+/* Childern Links */
+.children-links {
+    margin-bottom: 20px;
+    font-size: 80%;
+}
+
+.children-links a:link,
+.children-links a:visited {
+    text-decoration: none;
+}
+
+.children-links ul {
+    float: left;
+}
+
+
+.children-links li {
+    margin-right: 20px;
+}
+
+.children-links .parent-link {
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #DDDDDD;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited {
+    color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+    border-bottom: 1px solid #DDDDDD;
+    color: #333;
+    cursor: default;
+	
+}
+
+.aligncenter {
+    margin: 0px auto;
+    display: block;
+}
+
+/* Historik Table */
+
+table.historik {
+	width: 100%;
+    border: 1px solid #ccc;
+	border-collapse: collapse;
+    display: table;
+	font-size: 80%;
+    font-family: Verdana,Geneva,sans-serif;;
+}
+
+table.historik tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table.historik tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table.historik th {
+	background-color: #ccc;
+}
+
+/* Features */
+table.Features td{
+	padding: 5px;
+	width: 33%;
+}
+
+table.Features td p{
+	margin: 0px;
+}
+
+table.Features td:hover {
+	background-color: #FFF;
+	outline: 1px solid black;
+}
+

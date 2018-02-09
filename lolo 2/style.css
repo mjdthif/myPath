@@ -1,0 +1,227 @@
+/*
+Theme Name:Demo Ulvis lolo
+Author: MJD 
+Author URL: www.ulvis.se
+Version: 1.0
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/*Global*/
+
+div.containerM {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Header */
+
+.site-header {
+	background: url(footer-center.jpg) 0px -260px;
+	margin-bottom: 40px;
+	min-height: 70px;
+	border-bottom: 6px solid #014F56;
+	border-top: 2px solid #014F56;
+}
+
+.site-nav li {
+	float: right;
+	display: block;
+	list-style: none;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.site-nav {
+	padding-top: 160px;
+	margin-right: 25px;
+}
+
+.site-nav ul li a {
+	color: #B8CCCE;
+	padding: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.9);
+	border-left: 2px solid #014F56;
+	border-bottom: 2px solid #014F56;
+	border-radius: 40px;
+}
+
+.site-nav a:hover {
+	color: white;
+	border-left: 2px solid #ABAEAD;
+	border-bottom: 2px solid #ABAEAD;
+	padding: 12px;
+	padding-left: 18px;
+	padding-right: 18px;
+
+}
+
+.site-header nav ul li.current-menu-item a {
+	background: #1E353F;
+	padding: 11px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+
+}
+
+
+/*--=-=--=-=-=-=-=-= The Title -=-=-=-=-=---=-= */
+
+
+
+
+
+#logo-mj {
+	float: left;
+	display: block;
+	margin: 20px 0px 0px 50px;
+}
+
+
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-*/
+
+/*========The foooter-===-=-=-=-=-=-=*/
+
+.site-footer {
+	background: url(footer-center.jpg);
+	border-top: 7px solid #014F56;
+	border-bottom: 3px solid #014F56;
+}
+
+.footer-loc {
+	color: #fff;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+#separator {
+	color: red;
+	font-size: 25px;
+}
+
+.site-footer {
+	margin-top: 30px;
+}
+
+.site-nav-footer {
+	margin-top: 10px;
+
+}
+
+.site-nav-footer li {
+	float: right;
+	margin: 10px;
+	list-style: none;
+}
+
+
+.site-nav-footer ul li a {
+	color: #B8CCCE;
+	text-decoration: none;
+	border-left: 3px solid #014F56;
+	border-bottom: 2px solid #014F56;
+	padding: 5px;
+	padding-right: 18px;
+	padding-left: 20px;
+	border-radius: 40px;
+	font-size: 14px;
+}
+
+.site-nav-footer ul li a:hover {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-left: 3px solid white;
+	border-bottom: 2px solid white;
+	padding: 7px;
+	padding-right: 20px;
+	padding-left: 22px;
+}
+
+.site-nav-footer ul li.current-menu-item a {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	border: 2px solid white;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 18px;
+}
+
+
+
+
+/*Making the wbsite responsive secation. */
+
+/*We begin with the tap approach.*/
+
+
+@media screen and (max-width:750px) {
+	body{
+		width: auto;
+		float: none;
+		background-color: aqua;
+	}
+	
+	
+	div.containerM{
+		width:90%;
+		margin: auto;
+	}
+	
+
+}
+
+
+
+
+/*Needed for the clear the fonts on other websites*/
+
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
